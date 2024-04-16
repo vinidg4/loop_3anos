@@ -8,7 +8,7 @@ function verificarTime() {
     var respostaTime = prompt("miderson gosta do?");
 
     
-    if (respostaTime.toLowerCase() === "parana club") {
+  if (respostaTime.toLowerCase() === "PARANA CLUB") {
       alert("sim e o parana  club")
       continuarPerguntando = false; // Sai do loop após a resposta correta
     } else {
