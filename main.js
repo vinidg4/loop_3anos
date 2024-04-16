@@ -5,10 +5,10 @@ function verificarTime() {
 
   while (continuarPerguntando) {
     
-    var respostaTime = prompt("Qual os melhor time?");
+    var respostaTime = prompt("miderson gosta do?");
 
     
-    if (respostaTime.toLowerCase() === "athlético pr") {
+    if (respostaTime.toLowerCase() === "parana club") {
       alert("Isso mesmo! O Athlético PR é o melhor time!");
       continuarPerguntando = false; // Sai do loop após a resposta correta
     } else {
