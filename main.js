@@ -9,10 +9,10 @@ function verificarTime() {
 
     
     if (respostaTime.toLowerCase() === "parana club") {
-      alert("Isso mesmo! O Athlético PR é o melhor time!");
+      alert("sim e o parana  club")
       continuarPerguntando = false; // Sai do loop após a resposta correta
     } else {
-      alert("Não é isso! Tente novamente.");
+      alert("tente na proxima!!!");
     }
   }
 }
